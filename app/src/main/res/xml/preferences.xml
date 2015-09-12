@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="key_root">
+    <ListPreference
+        android:entries="@array/listEntries"
+        android:entryValues="@array/listValues"
+        android:key="key_list_preference"
+        android:title="List Preference" />
+    <PreferenceScreen
+        android:key="key_screen_one"
+        android:title="Screen Preference">
+        <EditTextPreference
+            android:hint="Type something"
+            android:key="key_edit_text"
+            android:title="EditText Preference" />
+    </PreferenceScreen>
+</PreferenceScreen>

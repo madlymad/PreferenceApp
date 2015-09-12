@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PreferenceApp</string>
+    <string name="action_menu">Menu</string>
+</resources>
